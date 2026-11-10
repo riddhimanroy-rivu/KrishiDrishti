@@ -1,0 +1,19 @@
+KrishiDrishti - Test Set Classification Report
+============================================================
+
+                                               precision    recall  f1-score   support
+
+                      Tomato___Bacterial_spot       1.00      1.00      1.00         3
+                        Tomato___Early_blight       0.60      1.00      0.75         3
+                         Tomato___Late_blight       1.00      0.33      0.50         3
+                           Tomato___Leaf_Mold       1.00      1.00      1.00         3
+                  Tomato___Septoria_leaf_spot       1.00      1.00      1.00         3
+Tomato___Spider_mites Two-spotted_spider_mite       1.00      1.00      1.00         3
+                         Tomato___Target_Spot       1.00      1.00      1.00         3
+       Tomato___Tomato_Yellow_Leaf_Curl_Virus       1.00      1.00      1.00         3
+                 Tomato___Tomato_mosaic_virus       1.00      1.00      1.00         3
+                             Tomato___healthy       1.00      1.00      1.00         3
+
+                                     accuracy                           0.93        30
+                                    macro avg       0.96      0.93      0.93        30
+                                 weighted avg       0.96      0.93      0.93        30

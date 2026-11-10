@@ -1,0 +1,194 @@
+/* KrishiDrishti Custom Agricultural Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+    --primary: #1b5e20;
+    --primary-light: #2e7d32;
+    --primary-soft: #e8f5e9;
+    --accent: #43a047;
+    --accent-gold: #fbc02d;
+    --earth-brown: #5d4037;
+    --danger-red: #c62828;
+    --danger-soft: #ffebee;
+    --warning-orange: #ef6c00;
+    --warning-soft: #fff3e0;
+    --text-dark: #1f2937;
+    --text-muted: #4b5563;
+    --bg-card: #ffffff;
+    --border-color: #e5e7eb;
+}
+
+html, body, [class*="css"] {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--text-dark);
+}
+
+/* Hero Header Banner */
+.kd-hero {
+    background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 60%, #388e3c 100%);
+    border-radius: 16px;
+    padding: 36px 32px;
+    color: white;
+    margin-bottom: 28px;
+    box-shadow: 0 10px 25px -5px rgba(27, 94, 32, 0.25);
+}
+
+.kd-hero h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.5px;
+    color: #ffffff !important;
+}
+
+.kd-hero p.tagline {
+    font-size: 1.15rem;
+    color: #c8e6c9;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.kd-badge-sdg {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* Feature Cards */
+.kd-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    padding: 22px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.kd-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+}
+
+.kd-card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.kd-icon-box {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    background-color: var(--primary-soft);
+    color: var(--primary);
+}
+
+/* Result Badges */
+.kd-status-healthy {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #e8f5e9;
+    color: #1b5e20;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 1px solid #a5d6a7;
+}
+
+.kd-status-diseased {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 1px solid #ef9a9a;
+}
+
+/* Severity Tags */
+.kd-tag-critical {
+    background-color: #ffebee;
+    color: #b71c1c;
+    border: 1px solid #ffcdd2;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.kd-tag-moderate {
+    background-color: #fff3e0;
+    color: #e65100;
+    border: 1px solid #ffe0b2;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.kd-tag-low {
+    background-color: #f1f8e9;
+    color: #33691e;
+    border: 1px solid #dcedc8;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* Disclaimer Callout */
+.kd-disclaimer {
+    background-color: #f8fafc;
+    border-left: 4px solid #64748b;
+    padding: 14px 18px;
+    border-radius: 0 10px 10px 0;
+    color: #475569;
+    font-size: 0.87rem;
+    line-height: 1.5;
+    margin-top: 24px;
+}
+
+/* Metric Display Card */
+.kd-metric-box {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.kd-metric-value {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1.2;
+}
+
+.kd-metric-label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+}
