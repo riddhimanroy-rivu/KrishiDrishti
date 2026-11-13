@@ -166,6 +166,4 @@ python -m pytest tests/ -v
 ## 👥 Academic Project Team
 - **Course:** Neural Network & Deep Learning (PCCCS582)
 - **Department:** Computer Science & Engineering / CSE (AI & ML)
-- **Student 1:** [Insert Name, Roll Number] (Deep Learning & Data Pipeline)
-- **Student 2:** [Insert Name, Roll Number] (UI/UX & Full-Stack Integration)
-- **Supervisor:** [Insert Faculty Guide Name, Assistant Professor]
+
